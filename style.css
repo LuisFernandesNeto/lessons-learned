@@ -5,3 +5,13 @@ body {
     position: fixed;
     top: 0;
 }
+article {
+    position: absolute;
+    top: 50px;
+    left: 200px;
+}
+section {
+    position: absolute;
+    right: 400px;
+    top: 50px;
+}
