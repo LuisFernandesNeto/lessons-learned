@@ -1,5 +1,9 @@
 body {
     background-color: rgb(253, 251, 251);
+    font-size: 18px;
+    color: #85685a;
+    line-height: 40px;
+    font-family: 'Courier New', Courier, monospace;
 }
 #cabecalho {
     position: fixed;
@@ -8,10 +12,10 @@ body {
 article {
     position: absolute;
     top: 50px;
-    left: 200px;
+    left: 50px;
 }
 section {
     position: absolute;
-    right: 400px;
+    right: 100px;
     top: 50px;
 }
