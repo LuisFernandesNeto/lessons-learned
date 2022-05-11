@@ -13,9 +13,16 @@ article {
     position: absolute;
     top: 50px;
     left: 50px;
+    width: 600px;
 }
 section {
     position: absolute;
     right: 100px;
     top: 50px;
+}
+#minha_foto {
+    position: relative;
+    top: 300px;
+    width: 300px;
+    left: 1200px;
 }
