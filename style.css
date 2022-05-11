@@ -26,3 +26,12 @@ section {
     width: 300px;
     left: 1200px;
 }
+#licoes_aprendidas {
+    position: relative;
+    top: 500px;
+}
+#licoes_a_aprender {
+    position: relative;
+    top: 60px;
+    left: 1000px;
+}
