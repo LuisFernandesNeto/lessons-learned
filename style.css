@@ -47,18 +47,21 @@ body {
   top: 75px;
   left: 700px;
 }
+
 table {
   position: absolute;
   top: 50px;
   right: 250px;
   width: 600px;
 }
+
 nav {
   position: absolute;
   top: 500px;
   right: 0;
   width: 600px;
 }
+
 #rodape {
   position: absolute;
   top: 1400px;
