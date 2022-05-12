@@ -23,7 +23,7 @@ body {
 .lado-direito {
   position: absolute;
   right: 100px;
-  top: 50px;
+  top: 100px;
   border: 5px solid black;
   margin: 50px;
   padding: 10px;
@@ -39,10 +39,29 @@ body {
 #licoes_aprendidas {
   position: relative;
   top: 500px;
+  left: 100px;
 }
 
 #licoes_a_aprender {
   position: relative;
-  top: 60px;
-  left: 1000px;
+  top: 75px;
+  left: 700px;
+}
+table {
+  position: absolute;
+  top: 50px;
+  right: 250px;
+  width: 600px;
+}
+nav {
+  position: absolute;
+  top: 500px;
+  right: 0;
+  width: 600px;
+}
+#rodape {
+  position: absolute;
+  top: 1400px;
+  left: 900px;
+  color: blue;
 }
