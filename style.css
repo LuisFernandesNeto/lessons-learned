@@ -15,12 +15,18 @@ body {
   top: 50px;
   left: 50px;
   width: 600px;
+  border: 5px solid black;
+  margin: 50px;
+  padding: 10px;
 }
 
 .lado-direito {
   position: absolute;
   right: 100px;
   top: 50px;
+  border: 5px solid black;
+  margin: 50px;
+  padding: 10px;
 }
 
 #minha_foto {
