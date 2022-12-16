@@ -1,70 +1,99 @@
 body {
   background-color: rgb(253, 251, 251);
   font-size: 18px;
-  color: rgb(232, 32, 21);
+  color: #046c41;
   line-height: 40px;
   font-family: monospace;
 }
 
-#cabecalho {position: fixed;
+#header {
+  position: sticky;
   top: 0;
-}
-
-.lado-esquerdo {
-  position: absolute;
-  top: 50px;
-  left: 50px;
-  width: 600px;
-  border: 5px solid black;
-  margin: 50px;
-  padding: 10px;
-}
-
-.lado-direito {
-  position: absolute;
-  right: 100px;
-  top: 100px;
-  border: 5px solid black;
-  margin: 50px;
-  padding: 10px;
-}
-
-#minha_foto {
-  position: relative;
-  top: 300px;
-  width: 300px;
-  left: 1200px;
-}
-
-#licoes_aprendidas {
-  position: relative;
-  top: 500px;
-  left: 100px;
-}
-
-#licoes_a_aprender {
-  position: relative;
-  top: 75px;
-  left: 700px;
-}
-
-table {
-  position: absolute;
-  top: 50px;
+  text-align: center;
   right: 250px;
-  width: 600px;
+  background-color: #046c41;
+  color: rgba(248, 249, 250, 0.863);
 }
 
-nav {
+.article {
   position: absolute;
-  top: 500px;
-  right: 0;
+  text-align: center;
+  top: 50px;
+  left: 600px;
   width: 600px;
+  border: 5px solid #046c41;
+  margin: 50px;
+  padding: 10px;
 }
 
-#rodape {
+#html_logo {
+  position: fixed;
+  float: left;
+  top: 150px;
+  width: 300px;
+  left: 320px;
+}
+
+#css_logo {
+  position: fixed;
+  top: 150px;
+  width: 300px;
+  left: 1300px;
+}
+
+.conclusions {
   position: absolute;
-  top: 1400px;
-  left: 900px;
-  color: blue;
+  text-align: center;
+  left: 600px;
+  width: 600px;
+  top: 700px;
+  border: 5px solid #046c41;
+  margin: 50px;
+  padding: 10px;
+}
+
+
+
+#lessons_learned {
+  position: absolute;
+  border: 5px solid #046c41;
+  text-align: center;
+  left: 600px;
+  width: 600px;
+  top: 1000px;
+  margin: 50px;
+  padding: 10px;
+}
+
+#lessons_to_be_learned {
+  position: absolute;
+  border: 5px solid #046c41;
+  text-align: center;
+  left: 600px;
+  width: 600px;
+  top: 1600px;
+  margin: 50px;
+  padding: 10px;
+}
+
+#table {
+  position: absolute;
+  text-align: center;
+  text-size-adjust: 300px;
+  top: 5px;
+  left: 600px;
+  width: 600px;
+  margin: 50px;
+  padding: 10px;
+}
+
+#footer {
+  position: absolute;
+  border: 5px solid #046c41;
+  text-align: center;
+  left: 600px;
+  width: 600px;
+  top: 2100px;
+  margin: 50px;
+  padding: 10px;
 }
